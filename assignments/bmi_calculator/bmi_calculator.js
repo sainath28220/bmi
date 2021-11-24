@@ -1,11 +1,11 @@
 // This function should return the BMI for a person 
 function BMICalculator(mass, height) {
     if(height == 0 || mass == 0){
-        console.log("INVALID INPUT");
+        return("INVALID INPUT");
     }else{
         let BMI;
         BMI = mass / (height * height);
-        console.log(BMI);
+        return(BMI);
     }
 }
 
