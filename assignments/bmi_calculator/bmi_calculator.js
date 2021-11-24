@@ -3,7 +3,8 @@ function BMICalculator(mass, height) {
     if(height == 0 || mass == 0){
         console.log("INVALID INPUT");
     }else{
-        BMI = mass / (height * height)
+        let BMI;
+        BMI = mass / (height * height);
         console.log(BMI);
     }
 }
