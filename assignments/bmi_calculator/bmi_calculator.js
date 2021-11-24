@@ -9,3 +9,4 @@ function BMICalculator(mass, height) {
 }
 
 module.exports = BMICalculator;
+BMICalculator(mass,height);
